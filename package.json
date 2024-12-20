@@ -1,10 +1,10 @@
 {
-	"name": "misskey",
-	"version": "2024.11.1-alpha.0",
+	"name": "Misskey",
+	"version": "2024.11.1-alpha.0-yotsuhaskey",
 	"codename": "nasubi",
 	"repository": {
 		"type": "git",
-		"url": "https://github.com/misskey-dev/misskey.git"
+		"url": "https://github.com/hgzt23678/misskey"
 	},
 	"packageManager": "pnpm@9.6.0",
 	"workspaces": [
