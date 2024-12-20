@@ -25,7 +25,6 @@ export const columnTypes = [
 	'tl',
 	'antenna',
 	'list',
-	'channel',
 	'mentions',
 	'direct',
 	'roleTimeline',
@@ -43,7 +42,6 @@ export type Column = {
 	flexible?: boolean;
 	antennaId?: string;
 	listId?: string;
-	channelId?: string;
 	roleId?: string;
 	excludeTypes?: typeof notificationTypes[number][];
 	tl?: BasicTimelineType;
