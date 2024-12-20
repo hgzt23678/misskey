@@ -733,7 +733,7 @@ importers:
       astring:
         specifier: 1.9.0
         version: 1.9.0
-      broadcast-channel:
+      broadcast-:
         specifier: 7.0.0
         version: 7.0.0
       buraha:
@@ -5281,7 +5281,7 @@ packages:
     resolution: {integrity: sha512-yQbXgO/OSZVD2IsiLlro+7Hf6Q18EJrKSEsdoMzKePKXct3gvD8oLcOQdIzGupr5Fj+EDe8gO/lxc1BzfMpxvA==}
     engines: {node: '>=8'}
 
-  broadcast-channel@7.0.0:
+  broadcast-@7.0.0:
     resolution: {integrity: sha512-a2tW0Ia1pajcPBOGUF2jXlDnvE9d5/dg6BG9h60OmRUcZVr/veUrU8vEQFwwQIhwG3KVzYwSk3v2nRRGFgQDXQ==}
 
   browser-assert@1.2.1:
@@ -9838,10 +9838,10 @@ packages:
   shimmer@1.2.1:
     resolution: {integrity: sha512-sQTKC1Re/rM6XyFM6fIAGHRPVGvyXfgzIDvzoq608vM+jeyVD0Tu1E6Np0Kc2zAIFWIj963V2800iF/9LPieQw==}
 
-  side-channel@1.0.4:
+  side-@1.0.4:
     resolution: {integrity: sha512-q5XPytqFEIKHkGdiMIrY10mvLRvnQh42/+GoBlFW3b2LXLE2xxJpZFdm94we0BaoV3RwJyGqg5wS7epxTv0Zvw==}
 
-  side-channel@1.0.6:
+  side-@1.0.6:
     resolution: {integrity: sha512-fDW/EZ6Q9RiO8eFG8Hj+7u/oW+XrPTIChwCOM2+th2A6OblDtYYIpve9m+KvI9Z4C9qSEXlaGR6bTEYHReuglA==}
     engines: {node: '>= 0.4'}
 
@@ -16079,7 +16079,7 @@ snapshots:
     dependencies:
       fill-range: 7.1.1
 
-  broadcast-channel@7.0.0:
+  broadcast-@7.0.0:
     dependencies:
       '@babel/runtime': 7.23.4
       oblivious-set: 1.4.0
@@ -16900,7 +16900,7 @@ snapshots:
       object-keys: 1.1.1
       object.assign: 4.1.4
       regexp.prototype.flags: 1.5.0
-      side-channel: 1.0.4
+      side-: 1.0.4
       which-boxed-primitive: 1.0.2
       which-collection: 1.0.1
       which-typed-array: 1.1.11
@@ -18539,13 +18539,13 @@ snapshots:
     dependencies:
       get-intrinsic: 1.2.1
       has: 1.0.3
-      side-channel: 1.0.4
+      side-: 1.0.4
 
   internal-slot@1.0.7:
     dependencies:
       es-errors: 1.3.0
       hasown: 2.0.2
-      side-channel: 1.0.6
+      side-: 1.0.6
 
   intersection-observer@0.12.2: {}
 
@@ -21141,7 +21141,7 @@ snapshots:
 
   qs@6.13.0:
     dependencies:
-      side-channel: 1.0.6
+      side-: 1.0.6
 
   qs@6.5.3: {}
 
@@ -21698,13 +21698,13 @@ snapshots:
 
   shimmer@1.2.1: {}
 
-  side-channel@1.0.4:
+  side-@1.0.4:
     dependencies:
       call-bind: 1.0.2
       get-intrinsic: 1.2.1
       object-inspect: 1.12.3
 
-  side-channel@1.0.6:
+  side-@1.0.6:
     dependencies:
       call-bind: 1.0.7
       es-errors: 1.3.0
