@@ -459,7 +459,8 @@ export class NoteCreateService implements OnApplicationShutdown {
 				} as IMentionedRemoteUsers[0];
 			}));
 		}
-
+		//このフォークではローカルのみ投稿を認めない
+		data.localOnly = false;
 		// 投稿を作成
 		try {
 			if (insert.hasPoll) {
