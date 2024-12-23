@@ -2,6 +2,8 @@
 <a href="https://misskey-hub.net">
 	<img src="./assets/title_float.svg" alt="Misskey logo" style="border-radius:50%" width="300"/>
 </a>
+</div>
+
 
 **🌎 **Misskey** is an open source, federated social media platform that's free forever! 🚀**
 
